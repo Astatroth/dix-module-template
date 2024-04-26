@@ -17,14 +17,14 @@
     },
     "autoload": {
         "psr-4": {
-            ":namespace\\:uc\\": "app/",
-            ":namespace\\:uc\\Database\\Factories\\": "database/factories/",
-            ":namespace\\:uc\\Database\\Seeders\\": "database/seeders/"
+            ":namespace\\:uc:module\\": "app/",
+            ":namespace\\:uc:module\\Database\\Factories\\": "database/factories/",
+            ":namespace\\:uc:module\\Database\\Seeders\\": "database/seeders/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            ":namespace\\:uc\\Tests\\": "tests/"
+            ":namespace\\:uc:module\\Tests\\": "tests/"
         }
     }
 }
