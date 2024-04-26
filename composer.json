@@ -1,0 +1,30 @@
+{
+    "name": ":lc:vendor/:lc:module",
+    "description": "",
+    "authors": [
+        {
+            "name": ":author_name",
+            "email": ":author_email"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            ":namespace\\:uc\\": "app/",
+            ":namespace\\:uc\\Database\\Factories\\": "database/factories/",
+            ":namespace\\:uc\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            ":namespace\\:uc\\Tests\\": "tests/"
+        }
+    }
+}
