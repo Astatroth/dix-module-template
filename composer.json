@@ -1,10 +1,10 @@
 {
-    "name": ":lc:vendor/:lc:module",
+    "name": "$VENDOR$/$LOWER_NAME$",
     "description": "",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email"
+            "name": "$AUTHOR_NAME$",
+            "email": "$AUTHOR_EMAIL$"
         }
     ],
     "extra": {
@@ -17,14 +17,14 @@
     },
     "autoload": {
         "psr-4": {
-            ":namespace\\:uc:module\\": "app/",
-            ":namespace\\:uc:module\\Database\\Factories\\": "database/factories/",
-            ":namespace\\:uc:module\\Database\\Seeders\\": "database/seeders/"
+            "$MODULE_NAMESPACE$\\$STUDLY_NAME$\\": "app/",
+            "$MODULE_NAMESPACE$\\$STUDLY_NAME$\\Database\\Factories\\": "database/factories/",
+            "$MODULE_NAMESPACE$\\$STUDLY_NAME$\\Database\\Seeders\\": "database/seeders/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            ":namespace\\:uc:module\\Tests\\": "tests/"
+            "$MODULE_NAMESPACE$\\$STUDLY_NAME$\\Tests\\": "tests/"
         }
     }
 }

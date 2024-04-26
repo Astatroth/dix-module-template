@@ -1,2 +1,0 @@
-rename:
-  app/Providers/ModuleTemplateServiceProvider: app/Providers/:uc:moduleServiceProvider
