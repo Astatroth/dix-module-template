@@ -1,6 +1,8 @@
 {
     "name": "$VENDOR$/$LOWER_NAME$",
-    "description": "",
+    "description": "$DESCRIPTION$",
+    "version": "$VERSION$",
+    "license": "$LICENSE$",
     "authors": [
         {
             "name": "$AUTHOR_NAME$",
@@ -9,7 +11,9 @@
     ],
     "extra": {
         "laravel": {
-            "providers": [],
+            "providers": [
+                "$MODULE_NAMESPACE$\\$STUDLY_NAME$\\Providers\\$STUDLY_NAME$ServiceProvider::class"
+            ],
             "aliases": {
 
             }
