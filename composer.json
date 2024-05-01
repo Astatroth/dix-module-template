@@ -12,7 +12,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "$MODULE_NAMESPACE$\\$STUDLY_NAME$\\Providers\\$STUDLY_NAME$ServiceProvider::class"
+                "$MODULE_NAMESPACE$\\$STUDLY_NAME$\\Providers\\ServiceProvider::class"
             ],
             "aliases": {
 
