@@ -1,6 +1,6 @@
 <?php
 
-namespace $NAMESPACE$;
+namespace $MODULE_NAMESPACE$\$STUDLY_NAME$\Providers;
 
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
